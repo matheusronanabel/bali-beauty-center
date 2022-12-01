@@ -6,10 +6,10 @@
     <section class="w-full h-screen flex items-center justify-center">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
-                <h2 class="text-white">
+                <h2 class="">
                     Coming Soon
                 </h2>
-                <h1 class="text-white font-black tracking-tight text-6xl">
+                <h1 class="font-black tracking-tight text-6xl">
                     Bali Beauty Center
                 </h1>
             </div>
