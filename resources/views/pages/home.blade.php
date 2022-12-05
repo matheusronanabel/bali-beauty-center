@@ -157,12 +157,12 @@
     </section>
 
     <!-- BALI BEAUTY CLINIC -->
-    <section class="hidden mt-32 items-center bg-cover bg-full md:block" id="balibeautyclinic2"
+    <section class="hidden mt-32 place-items-center bg-cover bg-full md:block" id="balibeautyclinic2"
         style="background-image: url('./img/grey2.png'); height: 50vh;">
-        <div class="container px-44 py-20 mx-auto">
+        <div class="container mx-auto px-60 py-20">
             <div class="text-white text-center">
-                <h1 class="pt-10 text-4xl">Bali Beauty Clinic</h1>
-                <p class="pt-10 px-32 text-md text-justify">
+                <h1 class="text-4xl">Bali Beauty Clinic</h1>
+                <p class="pt-1 text-md text-justify">
                     Lorem ipsum dolor sit amet. Eos
                     ipsa perspiciatis et cumque quibusdam
                     ex molestias consequatur ut

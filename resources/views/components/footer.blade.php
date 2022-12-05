@@ -1,8 +1,8 @@
 <footer class="bg-neutral-300 text-neutral-500">
-    <section class="md:py-12 container mx-auto">
+    <section class="md:py-6 container mx-auto">
         <div class="grid grid-cols-2 md:grid-cols-3 place-items-center">
             <div class="text-md">
-                <h2 class="py-10 text-lg text-black">Quick Links</h2>
+                <h2 class="py-5 text-lg text-black">Quick Links</h2>
                 <div class="text-sm">
                     <ul>
                         <li class="mt-1"><a class="hover:text-white transition ease-in-out duration-300"
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="text-md">
-                <h2 class="py-10 text-lg text-black">Address</h2>
+                <h2 class="py-5 text-lg text-black">Address</h2>
                 <div class="text-sm">
                     <ul>
                         <li>Jalan Street, Bali 80212</li>
@@ -104,8 +104,8 @@
     </section>
     <section class="grid border-1 border-t-2 border-black grid-cols-12 p-5 md:px-10 bg-neutral-300">
         <div class="col-span-12">
-            <h5 class="flex items-center text-neutral-500 text-sm">Site Developed by <a target="blank"
-                    href="https://bvrdigital.com"><img class="w-24 mx-5"
+            <h5 class="flex items-center text-center md:text-left text-neutral-500 text-sm">Site Developed by <a target="blank"
+                    href="https://bvrdigital.com"><img class="w-14 md:w-24 mx-5"
                         src="{{asset('/img/logo/digital-horizontal-blackfont.png')}}" alt="BVR Digital"></a>© 2022 All Rights Reserved</h5>
         </div>
     </section>

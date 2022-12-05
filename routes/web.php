@@ -40,3 +40,7 @@ Route::get('/about-us', function (){
 Route::get('/contact-us', function (){
     return view('pages.contact');
 });
+
+Route::get('/consultation', function (){
+    return view('pages.bookappointment');
+});
