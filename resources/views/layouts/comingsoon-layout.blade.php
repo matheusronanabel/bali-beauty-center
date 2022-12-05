@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bali Beauty Center - @yield('pageTitle')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('js/main.js') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -16,5 +17,5 @@
     </main>
     @include('components.footer')
 </body>
-
+<script src="{{ asset('/js/main.js') }}" defer></script>
 </html>

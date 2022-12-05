@@ -17,6 +17,26 @@ Route::get('/', function () {
     return view('pages.comingsoon');
 });
 
-Route::get('/main', function () {
-    return view('pages.main');
+Route::get('/home', function () {
+    return view('pages.home');
+});
+
+Route::get('/about', function (){
+    return view('pages.about');
+});
+
+Route::get('/services', function (){
+    return view('pages.services');
+});
+
+Route::get('/blog', function (){
+    return view('pages.blogpost');
+});
+
+Route::get('/about-us', function (){
+    return view('pages.about');
+});
+
+Route::get('/contact-us', function (){
+    return view('pages.contact');
 });
