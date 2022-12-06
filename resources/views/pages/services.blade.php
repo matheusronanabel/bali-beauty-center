@@ -15,7 +15,7 @@
     <section>
         <div class="mt-32 text-center">
             <h1 class="py-5 text-black text-3xl">Services</h1>
-            <p class="leading-relaxed md:px-96 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            <p class="leading-relaxed md:px-32 lg:px-96 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do
                 eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -23,22 +23,22 @@
         </div>
     </section>
 
-    <section class="mt-32">
-        <div class="grid md:grid-cols-2 gap-x-5 gap-y-5 mx-auto items-center">
+    <section class="my-32">
+        <div class="grid md:grid-cols-2 gap-x-5 gap-y-5 md:gap-y-20 mx-auto items-center">
             <div class="hidden md:block">
                 <img src="../img/grey2.png" class="w-screen">
             </div>
             <div>
                 <h2 class="uppercase text-3xl text-black">female</h2>
-                <div class="mt-10 block md:hidden">
+                <div class="mt-5 block md:hidden">
                     <img src="../img/grey2.png" class="w-screen">
                 </div>
-                <p class="mt-10 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <p class="mt-3 lg:mt-10 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.</p>
-                <div class="mt-10 grid grid-cols-2 md:grid-cols-4 px-3 text-[#BDA06A]">
+                <div class="md:mt-3 lg:mt-10 grid grid-cols-2 md:grid-cols-4 px-3 text-[#BDA06A]">
                     <a href="#" class="">Breast Surgery</a>
                     <a href="#" class="">Stem Cell</a>
                     <a href="#" class="">Rhinoplasty</a>
@@ -52,15 +52,15 @@
             </div>
             <div>
                 <h2 class="mt-10 md:mt-0 uppercase text-3xl text-black">non-surgical</h2>
-                <div class="mt-10 block md:hidden">
+                <div class="mt-5 block md:hidden">
                     <img src="../img/grey2.png" class="w-screen">
                 </div>
-                <p class="mt-10 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <p class="mt-3 lg:mt-10 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.</p>
-                <div class="mt-10 grid grid-cols-2 md:grid-cols-4 px-3 text-[#BDA06A]">
+                <div class="md:mt-3 lg:mt-10 grid grid-cols-2 md:grid-cols-4 px-3 text-[#BDA06A]">
                     <a href="#" class="">Breast Surgery</a>
                     <a href="#" class="">Stem Cell</a>
                     <a href="#" class="">Rhinoplasty</a>

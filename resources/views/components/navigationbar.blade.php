@@ -1,4 +1,4 @@
-<!-- <nav id="navbarMobile" class="z-50 fixed top-0 right-0 w-full bg-transparent grid grid-cols-12 md:hidden items-center">
+<nav id="navbarMobile" class="z-50 fixed top-0 right-0 w-full bg-transparent grid grid-cols-12 lg:hidden items-center">
     <div class="col-span-6 px-5 py-2">
         <a href="/">
             <img src="{{asset('/img/grey2.png')}}" alt="BBC Logo" class="text-white w-1/2">
@@ -19,10 +19,10 @@
             class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Blog</a>
         <a href="/contact-us" class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Contact Us</a>
     </div>
-</nav> -->
+</nav>
 
 <nav id="navbarDesktop"
-    class="z-50 hidden w-full md:grid grid-cols-12 items-center px-20 bg-transparent fixed top-0 right-0 drop-shadow-md">
+    class="z-50 hidden w-full lg:grid grid-cols-12 items-center px-20 bg-transparent fixed top-0 right-0 drop-shadow-md">
     <div class="col-span-3">
         <a href="/">
             <img src="{{asset('/img/grey2.png')}}" class="w-32" alt="BBC Logo">
@@ -36,7 +36,7 @@
             class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Blog</a>
         <a href="/contact-us" class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Contact Us</a>
     </div>
-    <div class="col-span-3">
+    <div id="consultationMenu" class="col-span-3">
         <a href="/contact-us"
             class="block w-fit bg-transparent text-white border-white border-2 px-3 py-2 ml-auto transition ease-in-out duration-300 rounded-md hover:translate-x-4">Make Consultation</a>
     </div>

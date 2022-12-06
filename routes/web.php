@@ -44,3 +44,7 @@ Route::get('/contact-us', function (){
 Route::get('/consultation', function (){
     return view('pages.bookappointment');
 });
+
+Route::get('/maps', function (){
+    return view('pages.googlemaps');
+});

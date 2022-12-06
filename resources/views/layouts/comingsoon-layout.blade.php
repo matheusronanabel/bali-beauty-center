@@ -8,6 +8,15 @@
     <title>Bali Beauty Center - @yield('pageTitle')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('js/main.js') }}" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="preload" as="style">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/montserrat');
+        body {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
@@ -19,5 +28,4 @@
 </body>
 <script src="./node_modules/tw-elements/dist/js/index.min.js" defer></script>
 <script src="{{ asset('/js/main.js') }}" defer></script>
-<script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 </html>
