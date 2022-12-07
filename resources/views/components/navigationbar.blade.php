@@ -1,7 +1,7 @@
 <nav id="navbarMobile" class="z-50 fixed top-0 right-0 w-full bg-transparent grid grid-cols-12 lg:hidden items-center">
     <div class="col-span-6 px-5 py-2">
         <a href="/">
-            <img src="{{asset('/img/grey2.png')}}" alt="BBC Logo" class="text-white w-1/2">
+            <img src="{{asset('/img/none.png')}}" alt="BBC Logo" class="text-white w-1/2">
         </a>
     </div>
     <div class="col-span-6 px-5 py-2">
@@ -25,7 +25,7 @@
     class="z-50 hidden w-full lg:grid grid-cols-12 items-center px-20 bg-transparent fixed top-0 right-0 drop-shadow-md">
     <div class="col-span-3">
         <a href="/">
-            <img src="{{asset('/img/grey2.png')}}" class="w-32" alt="BBC Logo">
+            <img src="{{asset('/img/none.png')}}" class="w-32" alt="BBC Logo">
         </a>
     </div>
     <div id="navbarDesktopMenu" class="col-span-6 flex space-x-10 text-center mx-auto text-white">

@@ -9,13 +9,13 @@
     </h1>
 </header>
 <main class="p-5 md:p-0">
-    <section class="mt-5 p-5 container mx-auto md:w-full md:h-screen flex items-center text-center">
+    <section class="mt-5 container mx-auto md:w-full md:h-screen flex items-center text-center">
         <div class="grid md:grid-cols-12">
             <div class="md:col-span-12">
                 <h1 class="tracking-tight text-4xl md:text-6xl">
                     Bali Beauty Clinic Experience
                 </h1>
-                <h4 class="mt-10 md:px-24 lg:px-52">
+                <h4 class="mt-10 md:px-24 lg:px-52 text-justify md:text-center">
                     Lorem ipsum dolor sit amet. Eos ipsa perspiciatis et cumque quibusdam ex molestias consequatur ut
                     rerum cupiditate ut assumenda aliquam. Et galisum deleniti ab ducimus voluptas non vitae iste. Eum
                     voluptate fugit ut velit minus non quisquam explicabo sit omnis laudantium?
@@ -51,7 +51,7 @@
                 <div class="md:px-24 lg:px-52 absolute text-center">
                     <img src="../img/black.png" class="float-left h-52 w-52" alt="logo">
                     <h1 class="mt-10 text-4xl">Bali Beauty Clinic</h1>
-                    <p class="mt-5 text-md">
+                    <p class="mt-5 text-md leading-relaxed">
                         Lorem ipsum dolor sit amet. Eos ipsa perspiciatis et cumque quibusdam ex molestias
                         consequatur
                         ut
@@ -69,7 +69,7 @@
                 <div class="absolute text-center">
                     <h1 class="text-4xl">Bali Beauty Clinic</h1>
                     <img src="../img/black.png" class="mt-5 mx-auto h-52 w-52" alt="logo">
-                    <p class="mt-5 text-md">
+                    <p class="mt-5 text-md leading-relaxed">
                         Lorem ipsum dolor sit amet. Eos ipsa perspiciatis et cumque quibusdam ex molestias
                         consequatur
                         ut
@@ -102,14 +102,14 @@
     <section class="mt-32">
         <div class="grid lg:grid-cols-2 gap-x-10 items-center">
             <div class="hidden lg:block">
-                <img src="../img/black.png" class="float-left mx-auto w-screen">
+                <img src="../img/grey2.png" class="float-left mx-auto w-screen">  <!-- DESKTOP -->
             </div>
             <div>
                 <h1 class="uppercase text-3xl md:text-4xl lg:text-5xl">the future of plastic surgery</h1>
                 <div class="block lg:hidden">
-                    <img src="../img/black.png" class="float-left mx-auto w-screen">
+                    <img src="../img/grey2.png" class="py-5 float-left mx-auto w-screen">  <!-- MOBILE -->
                 </div>
-                <div class="lg:mt-5 lg:pr-32 leading-relaxed">
+                <div class="lg:mt-5 lg:pr-32 text-justify leading-relaxed">
                     <p>Lorem ipsum dolor sit amet. Eos ipsa perspiciatis et cumque quibusdam
                         ex molestias consequatur ut
                         rerum cupiditate ut assumenda aliquam. Et galisum deleniti ab ducimus voluptas non vitae iste.
@@ -174,23 +174,30 @@
                         voluptate fugit ut velit minus non quisquam explicabo sit omnis laudantium?</p>
                 </div>
             </div>
-            <img src="../img/grey2.png" class="w-screen object-cover rounded-lg" alt="Bring Beauty to Life">
+            <img src="../img/grey2.png" class="w-screen object-cover" alt="Bring Beauty to Life">
         </div>
     </section>
 
     <!-- BALI BEAUTY CLINIC FOUNDER -->
     <section class="mt-32 container mx-auto">
-        <div class="grid md:grid-cols-2 gap-x-12">
+        <div class="grid md:grid-cols-2 gap-x-12 items-center">
             <div class="hidden md:block">
-                <img src="../img/grey2.png" class="w-screen object-cover rounded-lg" alt="Herb">
+                <img src="../img/grey2.png" class="mx-auto rounded-lg" alt="Herb">
             </div>
             <div>
-                <h1 class="text-3xl lg:text-6xl uppercase">bali beauty clinic founder</h1>
+                <h1 class="text-3xl lg:text-5xl uppercase">bali beauty clinic founder</h1>
                 <div class="block md:hidden">
-                    <img src="../img/grey2.png" class="mt-5 md:mt-0 w-screen object-cover rounded-lg" alt="Herb">
+                    <img src="../img/grey2.png" class="mt-5 md:mt-0 rounded-lg mx-auto" alt="Herb">
                 </div>
-                <h4 class="mt-10 text-2xl">Herb Meiner</h4>
-                <p class="mt-10 text-md">Lorem ipsum dolor sit amet. Eos
+                <h4 class="text-center md:text-left mt-2 md:mt-5 lg:mt-10 text-2xl">Herb Meiner</h4>
+                <p class="mt-2 lg:mt-5 text-md text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet. Eos
+                    ipsa perspiciatis et cumque quibusdam
+                    ex molestias consequatur ut
+                    rerum cupiditate ut assumenda aliquam. Et galisum deleniti ab ducimus voluptas non vitae
+                    iste.
+                    Eum
+                    voluptate fugit ut velit minus non quisquam explicabo sit omnis laudantium?</p>
+                <p class="md:mt-3 lg:mt-5 text-md text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet. Eos
                     ipsa perspiciatis et cumque quibusdam
                     ex molestias consequatur ut
                     rerum cupiditate ut assumenda aliquam. Et galisum deleniti ab ducimus voluptas non vitae
@@ -266,7 +273,29 @@
 </main>
 
 <!-- TESTIMONIALS -->
-<section class="mt-32">
+<main class="p-5 lg:p-0">
+    <section class="mt-32 container mx-auto">
+        <h5 class="text-md text-[#7A7A7A]">BALI BEAUTY CLINIC</h5>
+        <h1 class="mt-2 text-3xl">TESTIMONIALS</h1>
+        <div class="my-12 px-12 container shadow-2xl">
+            <div class="py-10 grid md:grid-cols-2 lg:grid-cols-4 items-center">
+                <div class="lg:col-span-3 md:pr-12 justify-center">
+                    <img src="../img/grey2.png" class="block md:hidden pb-5 w-full mx-auto rounded-sm" alt="">
+                    <h1 class="text-2xl md::text-3xl text-center">TATIANA JOVANSKA</h1>
+                    <h6 class="mt-0 md:mt-2 text-[#404040] text-center">Influencer</h6>
+                    <p class="mt-5 text-[#A8A8A8] text-justify md:text-center leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="hidden md:block">
+                    <img src="../img/grey2.png" class="w-full mx-auto rounded-sm" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- <section class="mt-32">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
@@ -500,7 +529,7 @@
             </div>
         </div>
     </section>
-</section>
+</section> -->
 @endsection
 
 
