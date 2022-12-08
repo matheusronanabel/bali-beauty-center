@@ -4,18 +4,19 @@
 
 @section('content')
 
-<header class="px-5 md:px-32 py-96 bg-black">
-    <h1 class="font-light text-2xl text-white">
+<header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
-    <h3 class="text-4xl text-white">We're happy to serve you</h3>
 </header>
 
 <main class="p-5 md:p-0 container mx-auto text-gray-400">
     <section>
         <div class="mt-32 text-center">
             <h1 class="py-5 text-black text-3xl">Services</h1>
-            <p class="leading-relaxed md:px-32 lg:px-48 xl:px-96 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            <p class="leading-relaxed md:px-32 lg:px-48 xl:px-96 font-light">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed
                 do
                 eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -33,7 +34,8 @@
                 <div class="mt-5 block md:hidden">
                     <img src="../img/grey2.png" class="mx-auto">
                 </div>
-                <p class="mt-3 lg:mt-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <p class="mt-3 lg:mt-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -55,7 +57,8 @@
                 <div class="mt-5 block md:hidden">
                     <img src="../img/grey2.png" class="mx-auto">
                 </div>
-                <p class="mt-3 lg:mt-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <p class="mt-3 lg:mt-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

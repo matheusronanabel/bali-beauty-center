@@ -4,11 +4,11 @@
 
 @section('content')
 
-<header class="px-5 md:px-32 py-96 bg-black">
-    <h1 class="font-light text-2xl text-white">
+<header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
-    <h3 class="text-4xl text-white">Our Blogpost</h3>
 </header>
 
 <main class="p-5 md:p-0 container mx-auto text-gray-400">
@@ -277,5 +277,5 @@
         </div>
     </section> -->
 </main>
-
+@include('components.cta')
 @endsection

@@ -58,7 +58,7 @@ $(document).ready(function () {
             $("#navMenu").addClass("hidden");
         } else {
             $("#navMenu").removeClass("hidden");
-            $("#navMenu").addClass("block md:hidden");
+            $("#navMenu").addClass("block lg:hidden");
         }
     }
 

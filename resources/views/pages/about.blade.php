@@ -5,11 +5,12 @@
 @section('content')
 
 
-<header class="px-5 md:px-32 py-96 bg-black">
+<header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
     <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
-    <h3 class="text-3xl text-white">Where luxury and beauty is a lifestyle</h3>
+    <h2 class="text-white text-2xl lg:py-10">Where luxury and beauty is a lifestyle</h2>
 </header>
 
 
@@ -117,4 +118,5 @@
     </section>
 
 </main>
+@include('components.cta')
 @endsection

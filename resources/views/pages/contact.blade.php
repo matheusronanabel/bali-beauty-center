@@ -3,13 +3,16 @@
 @section('pageTitle', 'Contact Us')
 
 @section('content')
-<header class="px-5 md:px-32 py-96 bg-black">
-    <h1 class="font-light text-2xl text-white">
+<header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
 </header>
 
 <main class="p-5 md:p-0 container mx-auto">
+
+
     <section class="mt-32">
         <h2 class="text-4xl">Contact Us</h2>
         <div class="mt-10 grid md:grid-cols-2 gap-10 mx-auto">
@@ -96,6 +99,10 @@
                 <p class="ml-8">Jl. Sunset Road, Gg. Meduri No. 5, Seminyak</p>
             </div>
         </div>
+    </section>
+    <!-- MAPS -->
+    <section class="py-12">
+        @include('components.googlemaps')
     </section>
 </main>
 @endsection
