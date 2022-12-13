@@ -5,13 +5,13 @@
 @section('content')
 
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
     <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
 </header>
 
-<main class="p-5 md:p-0 container mx-auto text-gray-400">
+<main class="p-5 container mx-auto text-gray-400">
     <!-- <section class="mt-32">
         <div
             class="grid md:grid-cols-2 gap-x-5 place-items-center overflow-hidden bg-transparent hover:bg-white transition ease-in-out duration-300 rounded-lg shadow drop-shadow-2xl">

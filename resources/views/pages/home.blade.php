@@ -4,7 +4,7 @@
 
 @section('content')
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
     <h6 class="text-xl text-white">Welcome to</h6>
     <h1 class="py-5 font-bold text-white text-4xl">ᬩᬮᬶᬩᬶᬬᬸᬢᬶᬓ᭄ᬮᬶᬦᬶ​ᬓ᭄᭟​</h1>
     <h6 class="text-xl text-white">
@@ -42,7 +42,7 @@
     </h6>
     
 </header>
-<main class="p-5 md:p-0">
+<main class="p-5 lg:p-0">
     <section class="mt-5 container mx-auto md:w-full md:h-screen flex items-center text-center">
         <div class="grid md:grid-cols-12">
             <div class="md:col-span-12">
@@ -179,7 +179,7 @@
     </section>
 
     <!-- BRING BEAUTY TO LIFE -->
-    <section class="mt-32 hidden md:block ">
+    <section class="mt-32 hidden md:block">
         <div class="flex items-center justify-center">
             <div
                 class="absolute text-xl text-center mx-1 py-1 px-1 md:mx-32 md:py-16 md:px-16 lg:mx-52 lg:py-32 lg:px-32 bg-white">
@@ -309,7 +309,7 @@
 </main>
 
 <!-- TESTIMONIALS -->
-<main class="p-5 lg:p-0">
+<main class="p-5">
     <section class="mt-32 container mx-auto">
         <h5 class="text-md text-[#7A7A7A]">BALI BEAUTY CLINIC</h5>
         <h1 class="mt-2 text-3xl">TESTIMONIALS</h1>

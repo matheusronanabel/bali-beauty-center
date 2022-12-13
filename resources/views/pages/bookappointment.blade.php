@@ -4,7 +4,7 @@
 
 @section('content')
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
     <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>

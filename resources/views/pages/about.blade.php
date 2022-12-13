@@ -6,7 +6,7 @@
 
 
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/sirf_header_1.webp'); height: 100vh;">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
     <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
@@ -14,7 +14,7 @@
 </header>
 
 
-<section class="p-5 md:p-0 mt-32">
+<section class="p-5 md:p-0 md:pl-16 mt-32">
     <div class="grid md:grid-cols-2 items-center mx-auto">
         <div class="">
             <h1 class="md:pl-10 font-bold text-[#BDA06A] text-4xl">About Us</h1>
@@ -31,7 +31,7 @@
         </div>
     </div>
 </section>
-<main class="p-5 md:p-0 container mx-auto text-gray-400">
+<main class="p-5 container mx-auto text-gray-400">
     <section class="mt-32">
         <h1 class="uppercase text-center text-black text-4xl">history</h1>
         <div class="mt-20 grid grid-cols-1 gap-y-1">

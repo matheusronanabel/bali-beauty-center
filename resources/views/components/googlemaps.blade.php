@@ -1,4 +1,4 @@
-<div id="googleMap" style="width:100%;height:700px;"></div>
+<div id="googleMap" style="width:100%; height:500px;"></div>
 
 <script>
 function myMap() {
