@@ -21,7 +21,7 @@
             <div>
                 <img src="../img/grey2.png" class="my-5 block float-left mx-auto w-screen md:hidden">
             </div>
-            <p class="mt-5 md:px-10 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            <p class="mt-5 md:px-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <hr class="my-4 md:ml-10 w-24 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-[#BDA06A]">
@@ -31,12 +31,12 @@
         </div>
     </div>
 </section>
-<main class="p-5 container mx-auto text-gray-400">
+<main class="p-5 container mx-auto text-justify md:text-left text-gray-400">
     <section class="mt-32">
         <h1 class="uppercase text-center text-black text-4xl">history</h1>
         <div class="mt-20 grid grid-cols-1 gap-y-1">
             <div>
-                <h2 class="my-2 text-3xl">Since 1998</h2>
+                <h2 class="my-2 text-3xl text-left">Since 1998</h2>
                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                     been
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
@@ -46,7 +46,7 @@
                 <hr class="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700">
             </div>
             <div>
-                <h2 class="my-2 text-3xl">Medical Korean Wave</h2>
+                <h2 class="my-2 text-3xl text-left">Medical Korean Wave</h2>
                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                     been
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
@@ -56,7 +56,7 @@
                 <hr class="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700">
             </div>
             <div>
-                <h2 class="my-2 text-3xl">Five Most Popular Surgical Procedures</h2>
+                <h2 class="my-2 text-3xl text-left">Five Most Popular Surgical Procedures</h2>
                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                     been
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
@@ -66,7 +66,7 @@
                 <hr class="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700">
             </div>
             <div>
-                <h2 class="my-2 text-3xl">Popular Surgical Product in Women</h2>
+                <h2 class="my-2 text-3xl text-left">Popular Surgical Product in Women</h2>
                 <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                     has
                     been

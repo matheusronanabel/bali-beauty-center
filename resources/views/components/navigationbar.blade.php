@@ -18,6 +18,7 @@
         <a href="/blog"
             class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Blog</a>
         <a href="/contact-us" class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Contact Us</a>
+        <a href="/consultation" class="block text-right hover:text-neutral-400 transition ease-in-out duration-300">Make Consultation</a>
     </div>
 </nav>
 

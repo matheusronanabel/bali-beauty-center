@@ -15,7 +15,7 @@
     <section>
         <div class="mt-32 text-center">
             <h1 class="py-5 text-black text-3xl">Services</h1>
-            <p class="leading-relaxed md:px-32 lg:px-48 xl:px-96 font-light">Lorem ipsum dolor sit amet, consectetur
+            <p class="leading-relaxed text-justify md:text-center md:px-32 lg:px-48 xl:px-96 font-light">Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed
                 do
                 eiusmod tempor
