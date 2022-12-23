@@ -225,7 +225,7 @@
             <div>
                 <h1 class="text-3xl lg:text-5xl uppercase">bali beauty clinic founder</h1>
                 <div class="pt-12 block md:hidden">
-                    <img src="../img/home/HerbMeiner.png" class="mt-5 md:mt-0 rounded-lg mx-auto" alt="Herb">
+                    <img src="../img/home/HerbMeiner.png" class="mt-5 md:mt-0 mx-auto" alt="Herb">
                 </div>
                 <h4 class="pt-3 md:pt-0 text-center md:text-left mt-2 md:mt-5 lg:mt-10 text-2xl">Herb Meiner</h4>
                 <p class="pt-6 md:pt-0 mt-2 lg:mt-5 text-md text-justify md:text-left leading-relaxed">Lorem ipsum dolor
@@ -251,9 +251,9 @@
 </main>
 
 <!-- BALI BEAUTY CLINIC -->
-<section class="mt-32" style="background-image: url('./img/home/IntroSection2.png'); height:50%;">
-    <div class="py-20 grid grid-cols-3 text-center text-white">
-        <div class="col-start-2">
+<section class="mt-32 md:py-20" style="background-image: url('./img/home/IntroSection2.png');">
+    <div class="grid md:grid-cols-3 text-center text-white">
+        <div class="px-5 lg:px-0 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-1">
             <h1 class="text-4xl leading-relaxed">Bali Beauty Clinic</h1>
             <p class="text-justify">Lorem ipsum dolor sit amet. Eos
                 ipsa perspiciatis et cumque quibusdam
@@ -261,8 +261,10 @@
                 rerum cupiditate ut assumenda aliquam. Et galisum deleniti ab ducimus voluptas non vitae
                 iste.
                 Eum
-                voluptate fugit ut velit minus non quisquam explicabo sit omnis laudantium?</p>
-                <hr class="my-8 w-full h-1 bg-white rounded border-0">
+                voluptate fugit ut velit minus non quisquam explicabo sit omnis laudantium?
+                </p>
+                <hr class="my-5 w-1/2 h-0.5 mx-auto bg-white rounded border-0">
+                
         </div>
     </div>
 </section>
@@ -312,17 +314,17 @@
         </div>
         <div class="mt-10 lg:px-24 grid md:grid-cols-3 gap-y-10 md:gap-y-0 gap-x-5 lg:gap-x-10 text-center">
             <div>
-                <img src="../img/home/Dr-Park-Hye-Won.png" class=" w-screen object-cover rounded-lg" alt="">
+                <img src="../img/home/Dr-Park-Hye-Won.png" class=" w-screen object-cover" alt="">
                 <h2 class="mt-5 text-2xl lg:text-3xl">Dr. Park Hye Won</h2>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div>
-                <img src="../img/home/Dr-Kwon-Soon-Hong.png" class=" w-screen object-cover rounded-lg" alt="">
+                <img src="../img/home/Dr-Kwon-Soon-Hong.png" class=" w-screen object-cover" alt="">
                 <h2 class="mt-5 text-2xl lg:text-3xl">Dr. Kwon Soon Hong</h2>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div>
-                <img src="../img/home/Dr-Kim-Mu-Hyun.png" class=" w-screen object-cover rounded-lg" alt="">
+                <img src="../img/home/Dr-Kim-Mu-Hyun.png" class=" w-screen object-cover" alt="">
                 <h2 class="mt-5 text-2xl lg:text-3xl">Dr. Kim Mu Hyun</h2>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>

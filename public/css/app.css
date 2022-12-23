@@ -551,6 +551,9 @@ video {
 .col-start-2 {
   grid-column-start: 2;
 }
+.col-start-3 {
+  grid-column-start: 3;
+}
 .float-left {
   float: left;
 }
@@ -1117,6 +1120,14 @@ video {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.px-96 {
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1408,6 +1419,18 @@ video {
     grid-column: span 12 / span 12;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .md\:col-start-3 {
+    grid-column-start: 3;
+  }
+
   .md\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -1574,6 +1597,11 @@ video {
     padding-right: 3.5rem;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:pl-16 {
     padding-left: 4rem;
   }
@@ -1627,6 +1655,14 @@ video {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:col-start-2 {
+    grid-column-start: 2;
   }
 
   .lg\:mx-52 {
@@ -1750,6 +1786,16 @@ video {
   .lg\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:pr-32 {
