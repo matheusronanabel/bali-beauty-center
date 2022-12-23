@@ -14,7 +14,7 @@
                             </li>
                             <li><a href="/contact"
                                     class="hover:text-white transition ease-in-out duration-300">Contact</a></li>
-                            <li><a href="/book" class="hover:text-white transition ease-in-out duration-300">Book an
+                            <li><a href="/bookappointment" class="hover:text-white transition ease-in-out duration-300">Book an
                                     Appointment</a></li>
                         </ul>
                     </div>
@@ -101,7 +101,7 @@
                             <li class="mt-1"><a class="hover:text-white transition ease-in-out duration-300"
                                     href="/contact">Contact</a></li>
                             <li class="mt-1"><a class="hover:text-white transition ease-in-out duration-300"
-                                    href="/#">Book
+                                    href="/bookappointment">Book
                                     an Appointment</a></li>
                         </ul>
                     </div>

@@ -6,7 +6,7 @@
 
 
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/about/About-Header.png'); height: 100vh;">
     <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
@@ -19,7 +19,7 @@
         <div class="">
             <h1 class="md:pl-10 font-bold text-[#BDA06A] text-4xl">About Us</h1>
             <div>
-                <img src="../img/grey2.png" class="my-5 block float-left mx-auto w-screen md:hidden">
+                <img src="../img/about/About-Us-Image.png" class="my-5 block float-left mx-auto w-screen md:hidden">
             </div>
             <p class="mt-5 md:px-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -27,7 +27,7 @@
                 <hr class="my-4 md:ml-10 w-24 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-[#BDA06A]">
         </div>
         <div>
-            <img src="../img/grey2.png" class="hidden float-left mx-auto w-screen md:block"> <!-- DESKTOP -->
+            <img src="../img/about/About-Us-Image.png" class="hidden float-left mx-auto w-screen md:block"> <!-- DESKTOP -->
         </div>
     </div>
 </section>

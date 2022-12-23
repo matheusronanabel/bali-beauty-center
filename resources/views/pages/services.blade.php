@@ -5,10 +5,11 @@
 @section('content')
 
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
-    <h1 class="font-bold text-4xl text-white">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/services/Service-Header.png'); height: 100vh;">
+    <h1 class="text-2xl text-white">
         @yield('pageTitle')
     </h1>
+    <h2 class="text-white text-4xl lg:py-10">We’re happy to serve you</h2>
 </header>
 
 <main class="p-5 container mx-auto text-gray-400">
@@ -27,12 +28,12 @@
     <section class="my-32">
         <div class="grid md:grid-cols-2 gap-x-5 gap-y-5 md:gap-y-20 mx-auto items-center">
             <div class="hidden md:block">
-                <img src="../img/grey2.png" class="mx-auto"> <!-- DESKTOP -->
+                <img src="../img/services/Service-Female.png" class="mx-auto"> <!-- DESKTOP -->
             </div>
             <div>
                 <h2 class="uppercase text-3xl text-black">female</h2>
                 <div class="mt-5 block md:hidden">
-                    <img src="../img/grey2.png" class="mx-auto">
+                    <img src="../img/services/Service-Female.png" class="mx-auto">
                 </div>
                 <p class="mt-3 lg:mt-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do eiusmod
@@ -50,12 +51,12 @@
                 </div>
             </div>
             <div class="hidden md:block">
-                <img src="../img/grey2.png" class="mx-auto">
+                <img src="../img/services/Service-Non-Surgical.png" class="mx-auto">
             </div>
             <div>
                 <h2 class="mt-10 md:mt-0 uppercase text-3xl text-black">non-surgical</h2>
                 <div class="mt-5 block md:hidden">
-                    <img src="../img/grey2.png" class="mx-auto">
+                    <img src="../img/services/Service-Non-Surgical.png" class="mx-auto">
                 </div>
                 <p class="mt-3 lg:mt-10 text-justify md:text-left leading-relaxed">Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do eiusmod

@@ -1,7 +1,7 @@
 <div
-    class="overflow-hidden bg-transparent hover:bg-white transition ease-in-out duration-300 shadow rounded-lg drop-shadow-2xl w-full">
+    class="overflow-hidden bg-transparent hover:bg-white transition ease-in-out duration-300 shadow md:shadow-none hover:shadow hover:drop-shadow-2xl w-full">
     <div>
-        <img src="{{ asset('/img/grey2.png') }}" class="h-full w-full" alt="">
+        <img src="{{ asset('/img/blogpost/cards/card4.png') }}" class="h-full w-full" alt="">
     </div>
     <div class="space-y-2 mt-2 px-4 py-4">
         <h2 class="font-bold text-lg">Blogpost Title</h2>

@@ -41,7 +41,7 @@ Route::get('/contact-us', function (){
     return view('pages.contact');
 });
 
-Route::get('/consultation', function (){
+Route::get('/bookappointment', function (){
     return view('pages.bookappointment');
 });
 
