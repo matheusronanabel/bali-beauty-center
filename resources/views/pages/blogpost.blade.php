@@ -5,10 +5,11 @@
 @section('content')
 
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
-    <h1 class="font-bold text-4xl text-white">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/blogpost/Blogpost-Header.png'); height: 100vh;">
+    <h2 class="text-2xl text-white">
         @yield('pageTitle')
-    </h1>
+    </h2>
+    <h1 class="text-white text-4xl lg:py-10">Our Blogpost</h1>
 </header>
 
 <main class="p-5 container mx-auto text-gray-400">
@@ -28,9 +29,10 @@
 
     <section class="mt-32">
         <div
-            class="grid md:grid-cols-2 gap-x-5 place-items-center overflow-hidden bg-transparent hover:bg-white transition ease-in-out duration-300 rounded-lg shadow drop-shadow-2xl">
+            class="grid md:grid-cols-2 gap-x-5 place-items-center overflow-hidden bg-transparent hover:bg-white transition ease-in-out duration-300 hover:shadow hover:drop-shadow-2xl">
+            <!-- @include('components.cards.card1') -->
             <div>
-                <img src="{{ asset('/img/grey2.png') }}" class="h-80 w-screen" alt="">
+                <img src="{{ asset('/img/blogpost/cards/card1.png') }}" class="h-80 w-screen" alt="">
             </div>
             <div class="space-y-2 mt-2 px-4 py-4">
                 <h2 class="font-bold text-lg">Blogpost Title</h2>
@@ -51,12 +53,12 @@
     <section class="">
         <div class="mt-10 md:mt-0 md:py-20 grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-center">
             {{-- Looping Database Blogpost --}}
-            @include('components.cards.card1')
             @include('components.cards.card2')
             @include('components.cards.card3')
             @include('components.cards.card4')
             @include('components.cards.card5')
             @include('components.cards.card6')
+            @include('components.cards.card7')
         </div>
     </section>
 

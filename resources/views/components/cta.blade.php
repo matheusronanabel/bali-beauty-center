@@ -1,6 +1,6 @@
 <section
     class="grid md:grid-cols-2 px-5 md:px-44 text-center py-20 md:py-20 bg-cover bg-center items-center justify-center"
-    style="background-image:url('../img/grey2.png')">
+    style="background-image:url('../img/CTA.png')">
     <div class="">
         <h3 class="text-white font-bold text-3xl">
             Need More Consultation With Us?

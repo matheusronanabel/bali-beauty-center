@@ -4,7 +4,7 @@
 
 @section('content')
 <header class="px-5 md:px-32 py-96 pb-20 bg-center bg-cover"
-    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/header/header.webp'); height: 100vh;">
+    style="background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url('./img/contact/Contact-Header.png'); height: 100vh;">
     <h1 class="font-bold text-4xl text-white">
         @yield('pageTitle')
     </h1>
@@ -18,24 +18,24 @@
         <div class="mt-10 grid md:grid-cols-2 gap-10 mx-auto">
             <div>
                 <h6>NAME</h6>
-                <input class="border w-full h-12 md:h-16 border-[#BDA06A]" type="text" name="name" value="">
+                <input class="border w-full h-14 border-[#BDA06A]" type="text" name="name" value="">
             </div>
             <div>
                 <h6>EMAIL</h6>
-                <input class="border w-full h-12 md:h-16 border-[#BDA06A]" type="text" name="email" value="">
+                <input class="border w-full h-14 border-[#BDA06A]" type="text" name="email" value="">
             </div>
         </div>
         <div class="mt-10 md:mt-5">
             <h6>MESSAGE</h6>
             <input class="border w-full h-44 border-[#BDA06A]" type="text" name="message" value="">
         </div>
-        <div class="py-16 md:py-32">
-            <button class="bg-[#BDA06A] px-12 md:px-16 py-3 md:py-6 text-md text-white">SUBMIT</button>
+        <div class="py-6">
+            <button class="bg-[#BDA06A] px-12 py-3 text-md text-white">SUBMIT</button>
         </div>
     </section>
 
     <!-- LOCATION -->
-    <section class="">
+    <section class="pt-32">
         <h1 class="text-3xl text-center">Location</h1>
         <div class="py-10 md:px-10 grid md:grid-cols-3 mx-auto gap-y-5 items-center">
             <div>
@@ -102,7 +102,7 @@
     </section>
     <!-- MAPS -->
     <section class="py-12">
-    <iframe class="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1010292.8368652596!2d114.41208816725278!3d-8.45491938690475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1671690317120!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe class="w-full h-96 md:h-screen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1010292.8368652596!2d114.41208816725278!3d-8.45491938690475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1671690317120!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <!-- @include('components.googlemaps') -->
     </section>
 </main>
