@@ -23,13 +23,14 @@
 </nav>
 
 <nav id="navbarDesktop"
-    class="z-50 hidden w-full lg:grid grid-cols-12 items-center px-20 bg-transparent fixed top-0 right-0 drop-shadow-md">
+    class="hidden w-full lg:grid grid-cols-12 items-center pl-20 bg-transparent fixed top-0 right-0 drop-shadow-md">
     <div class="col-span-3">
         <a href="/">
             <img src="{{asset('/img/grey2.png')}}" class="w-16" alt="BBC Logo">
         </a>
     </div>
-    <div id="navbarDesktopMenu" class="col-span-7 flex space-x-10 ml-80 text-white">
+    <!-- <div id="navbarDesktopMenu" class="col-span-8 flex space-x-10  text-white"> -->
+    <div id="navbarDesktopMenu" class="col-start-5 col-span-5 flex space-x-10 text-center mx-auto text-white">
     <a href="/home" class="block hover:text-neutral-400 transition ease-in-out duration-300">Home</a>
         <a href="/about" class="block hover:text-neutral-400 transition ease-in-out duration-300">About</a>
         <a href="/services" class="block hover:text-neutral-400 transition ease-in-out duration-300">Services</a>
@@ -37,7 +38,7 @@
             class="block hover:text-neutral-400 transition ease-in-out duration-300">Blog</a>
         <a href="/contact-us" class="block hover:text-neutral-400 transition ease-in-out duration-300">Contact Us</a>
     </div>
-    <div id="consultationMenu" class="col-span-2">
+    <div id="consultationMenu" class="col-start-10 col-span-2">
         <a href="/bookappointment"
             class="block w-fit bg-transparent text-white border-white border-2 px-3 py-2 ml-auto transition ease-in-out duration-300 rounded-md hover:translate-x-4">Make Consultation</a>
     </div>

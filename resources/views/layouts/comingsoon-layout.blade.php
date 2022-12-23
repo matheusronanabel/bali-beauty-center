@@ -14,9 +14,11 @@
 </head>
 
 <body>
+@include('components.navigationbar')
     <!-- <main> -->
         @yield('content')
     <!-- </main> -->
+    @include('components.footer')
 </body>
 <script src="./node_modules/tw-elements/dist/js/index.min.js" defer></script>
 <script src="{{ asset('/js/main.js') }}" defer></script>

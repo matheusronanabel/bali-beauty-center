@@ -1,8 +1,16 @@
-@extends('layouts.comingsoon-layout')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('pageTitle', 'Coming Soon')
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coming Soon</title>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+</head>
 
-@section('content')
+<body>
     <section class="w-full h-screen flex items-center justify-center bg-[#131312]">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
@@ -14,6 +22,6 @@
                 </h1>
             </div>
         </div>
-
     </section>
-@endsection
+</body>
+</html>
