@@ -103,7 +103,6 @@
     <!-- MAPS -->
     <section class="py-12">
     <iframe class="w-full h-96 md:h-screen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1010292.8368652596!2d114.41208816725278!3d-8.45491938690475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1671690317120!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!-- @include('components.googlemaps') -->
     </section>
 </main>
 @endsection
